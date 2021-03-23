@@ -1,0 +1,50 @@
+@charset "utf-8";
+/**{margin:0;padding:0;list-style-type:none;}*/
+/*a,img{border:0;}*/
+/*body{font:12px/180% Arial, Helvetica, sans-serif, "黑体";}*/
+/*a{color:#333;text-decoration:none;}*/
+/*a:hover{color:#ef9b11;text-decoration:underline;}*/
+/*滚动条样式*/
+::-webkit-scrollbar {width: 6px;height:6px;}
+::-webkit-scrollbar-track-piece{background-color: #eee;margin: -2px;}
+::-webkit-scrollbar-thumb{background: #aaa;min-height: 150px;min-width: 150px;border-radius: 10px;}
+::-webkit-scrollbar-thumb:vertical:hover{background: #555555}
+::-webkit-scrollbar-thumb:horizontal:hover{background: #555555}
+
+/* scrolltext */
+.scrolltext{padding-top: 35px;width:90%;height:100%;overflow:hidden;margin:20px auto 0 auto;}
+.scrolltext ol li{cursor:pointer;padding-left:7px;width:570px;height:25px;font-size:13px;line-height:25px;border-bottom:2px solid #fff;}
+.scrolltext ol li a{color:#6f746e;display:inline;width:570px;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow: hidden;}
+.scrolltext ol li a:hover{color:#1990FF;text-decoration:none;}
+.scrolltext .part{width:100%;padding-top:20px;}
+.scrolltext .part span{margin-left:26px;cursor:pointer;}
+
+/*自定义横向tab切效果*/
+.Shortcut{height:2.8em;}
+.custom-nav-tabs{height:40px;line-height: 40px;vertical-align: top;text-align:left;padding-left: 2em;font-family: MicrosoftYaHei;background: #FFFFFF;border: 1px solid #E8E8E8;box-shadow: 1px 1px 10px 0 rgba(235,235,235,0.50);border-top-left-radius: 5px;border-top-right-radius: 5px;}
+.custom-nav-tabs li{float:left;margin-right:10px;height:38px;line-height:38px;vertical-align: middle;padding:0px 5px 0px 5px;}
+.custom-nav-tabs li.active{border-bottom: 3px solid #1990FF;}
+.custom-nav-tabs li:hover{border-bottom: 3px solid #1990FF;}
+.custom-nav-tabs li a{height:30px;float:left;color:#666666;font-size:13px;font-weight:bold;text-decoration:none;}
+.shortcutEntry{width:50px;height: 50px;background: #29CB97;border-radius: 5px;margin: 0 auto;margin-bottom:6px;}
+
+.icon {width: 1em; height: 1em;vertical-align: -0.15em;fill: currentColor; overflow: hidden;}
+
+/*办理业务耗时头部tab切换样式*/
+.navTitle{font-size:16px; font-family:'微软雅黑'; color:#333; border-left:solid 2px #0090FF; padding-left:10px}
+.tabSpan{width: 100px; height: 32px; display: inline-block; line-height: 32px; cursor: pointer;}
+
+.cation-content{width: 100%;margin: 0 auto;padding: 0;position: relative;}
+.cation-middle{height:35px;line-height: 35px;font-size: 14px;}
+.cation-middle dl {margin-bottom: 0px;border-bottom: 0.5px solid #E1E6EB}
+.cation-list{overflow: hidden;}
+.cation-list dt{float: left;width: 190px;font-weight: 400;font-family: regular;height:35px;line-height: 35px;position: relative;color: #4c4c4c;text-align: center;font-size: 14px;background: #E5E9F2;border-bottom: 0.5px solid #E1E6EB;}
+.cation-list:last-child dt{border-bottom: none;}
+.cation-list:last-child dd{border-bottom: none;}
+.cation-list dd .areaInfo{margin-left:200px;margin-top:2px;height:32px;}
+.cation-list dd .dateInfo{margin-left:200px;margin-top:3px;height:32px;}
+.cation-list dd a{color: #444;font-size: 14px;max-width:105px;text-align: left;height: 35px;line-height: 35px;display: inline-block;float: left;margin-left: 40px;text-decoration: none;}
+.cation-list dd a.all{text-align: center;}
+.cation-list dd a.active,.cation-list a:hover{color: #4D85FF;font-weight: 600;}
+.dateDim div{color: #444;font-size: 14px;float:left;margin:5px 10px 0px 10px;cursor:pointer;}
+.dateDim div.active,.dateDim div:hover{color: #4D85FF;font-weight: 600;}
